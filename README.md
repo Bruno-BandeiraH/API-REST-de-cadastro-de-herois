@@ -3,9 +3,9 @@
 ## API REST de cadastro de heróis 
 
 ### Índice
-* [Preview] (#Preview)
-* [Tecnologias] (#Tecnologias)
-* [Como usar] (#Como-usar)
+* [Preview](#Preview)
+* [Tecnologias](#Tecnologias)
+* [Como usar](#Como-usar)
 
 
 ## Preview
@@ -38,4 +38,5 @@
 - Simplesmente execute o projeto na sua IDE favorita
 
 A aplicação estará disponível na porta 8080
+
 Para acessar a documentação swagger basta acessar http://localhost:8080/swagger-ui.html
