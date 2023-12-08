@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.associacaodeherois.RegistroDeHerois.entity.Heroi;
 import com.associacaodeherois.RegistroDeHerois.repository.HeroiRepository;
+import com.associacaodeherois.RegistroDeHerois.util.TipoDePoder;
 
 @Service
 public class HeroiService {
@@ -34,8 +35,8 @@ public class HeroiService {
         return heroiRepository.findByNomeDeHeroi(name);
     }
 
-    public List<Heroi> findByPowerType(String powerType) {
-        return heroiRepository.findByPoder();
+    public List<Heroi> findByPowerType(TipoDePoder powerType) {
+        return heroiRepository.findByPoder(powerType);
     }
 
     public Heroi updateHero(Heroi hero) {
