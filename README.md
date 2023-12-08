@@ -19,6 +19,7 @@
 - Spring Web
 - Spring JPA
 - H2 Database
+- Bean Validation
 - Springdoc
 - Git e GitHub
 
